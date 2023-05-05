@@ -305,7 +305,7 @@
   width: 316px;
 }
 
-.hemo-a-inner,
+
 .hemo-a-item {
   cursor: pointer;
   border: 0;
@@ -316,12 +316,6 @@
   left: 16px;
   border-radius: var(--br-lgi);
   width: 197px;
-  height: 43px;
-}
-
-.hemo-a-inner {
-  top: 14px;
-  left: 869px;
   height: 43px;
 }
 
