@@ -3,13 +3,13 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 2. Make nav sticky */
-main>nav {
+/* 2. Make nav sticky 
+main> nav {
   position: sticky;
   top: 2rem;
   align-self: start;
 }
-
+*/
 /* 3. ScrollSpy active styles (see JS tab for activation) */
 .section-nav li.active>a {
   color: #333;
@@ -25,7 +25,7 @@ main>nav {
 .section-nav a {
   text-decoration: none;
   display: block;
-  padding: .125rem 0;
+  padding: 2px 0;
   color: #ccc;
   transition: all 50ms ease-in-out;
   /* 💡 This small transition makes setting of the active state smooth */
@@ -60,18 +60,18 @@ h1 {
   font-weight: 300;
 }
 
-/** page layout **/
+/** page layout 
 main {
   display: grid;
   grid-template-columns: 1fr 15em;
   max-width: 100em;
   width: 90%;
   margin: 0 auto;
-}
+}**/
 
 /** enlarge the sections for this demo, so that we have a long scrollable page **/
 section {
-  padding-bottom: 20rem;
+  padding-bottom: 300px;
 }
 
 /*body-clinicalsymp*/
