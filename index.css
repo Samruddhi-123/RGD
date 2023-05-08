@@ -211,7 +211,23 @@ section {
   font-size: var(--font-size-5xs);
   width: 395px;
 }
+.coloured-age{
+position: absolute;
+width: 395px;
+height: 12px;
+left: 310px;
+top: 810px;
 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 12px;
+/* identical to box height */
+
+
+color: #000000;
+}
 /*inheritance pattern*/
 .autosomal-recessive {
   position: absolute;
