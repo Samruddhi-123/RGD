@@ -4,12 +4,12 @@ html {
 }
 
 /* 2. Make nav sticky 
-main> nav {
-  position: sticky;
-  top: 2rem;
-  align-self: start;
-}
-*/
+  main> nav {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+  }
+  */
 /* 3. ScrollSpy active styles (see JS tab for activation) */
 .section-nav li.active>a {
   color: #333;
@@ -74,13 +74,13 @@ h1 {
   color: #11284B;
 }
 /** page layout 
-main {
-  display: grid;
-  grid-template-columns: 1fr 15em;
-  max-width: 100em;
-  width: 90%;
-  margin: 0 auto;
-}**/
+  main {
+    display: grid;
+    grid-template-columns: 1fr 15em;
+    max-width: 100em;
+    width: 90%;
+    margin: 0 auto;
+  }**/
 
 /** enlarge the sections for this demo, so that we have a long scrollable page **/
 section {
@@ -209,7 +209,7 @@ section {
   position: absolute;
   top: 651px;
   left: 292px;
-  width: 824px;
+  width: 838px;
   height: 163px;
   object-fit: cover;
 }
@@ -555,18 +555,18 @@ section {
   position: absolute;
   width: 197px;
   height: 43px;
-  left: 16px;
-  top: 276px;
+  left: 12px;
+  top: 315px;
   background: #EFF0FF;
   border-radius: 19px;
 }
 
 /*.hemo-a-inner {
-  top: 14px;
-  left: 869px;
-  height: 43px;
-}
-*/
+    top: 14px;
+    left: 869px;
+    height: 43px;
+  }
+  */
 .alpha-thalassemia,
 .beta-thalassemia,
 .hemophilia-a,
@@ -859,7 +859,7 @@ section {
 }
 
 /*body*/
-.hemo-a {
+.hemo-b{
   position: relative;
   background-color: var(--color-white);
   height: 2105px;

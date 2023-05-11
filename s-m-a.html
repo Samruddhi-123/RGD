@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;800&display=swap" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./s-m-a.css" />
+    <script src="hemotest.js"></script>
+
+</head>
+<main>
+
+    <body>
+        <div class="hemo-a">
+            <div>
+                <!--right nav bar-->
+                <nav class="section-nav">
+                    <ol>
+                        <li><a href="#Clinical symptoms">Clinical symptoms</a></li>
+                        <li><a href="#Timeline of disease onset">Timeline of disease onset</a></li>
+                        <li><a href="#Inheritance Pattern">Inheritance Pattern</a></li>
+                        <li><a href="#Healing">Healing</a></li>
+                        <li class=""><a href="#Recent Research">Recent Research</a></li>
+                        <li class=""><a href="#Resources">Resources</a></li>
+                    </ol>
+                </nav>
+                <a class="contents">Contents</a>
+                <style>
+                    .section-nav {
+                        position: fixed;
+                        top: 207px;
+                        right: 25px;
+                        z-index: 99;
+                        bottom: 30px;
+
+                    }
+
+                    .section-nav>ol>li {
+                        padding-bottom: 20px;
+                    }
+                </style>
+
+                <!--clinical symp-->
+                <section id="Clinical symptoms">
+                    <a class="clinical-symptoms">Clinical symptoms</a>
+                    <img class="body-icon" alt="" src="body.png" />
+
+                    <style type="text/css">
+                        .section1:hover img {
+                            border: solid #EFF0FF;
+                            border-radius: 50%
+                        }
+
+                        .section1:hover .layer1 {
+                            border: 2px solid #EFF0FF;
+                            width: 498px;
+                            border-radius: var(--br-lgi);
+                        }
+
+                        .section2:hover img {
+                            border: 2px solid #EFF0FF;
+                            border-radius: 50%
+                        }
+
+                        .section2:hover .layer2 {
+                            border: 2px solid #EFF0FF;
+                            width: 498px;
+                            border-radius: var(--br-lgi);
+                        }
+
+                        .section3:hover img {
+                            border: 2px solid #EFF0FF;
+                            border-radius: 50%
+                        }
+
+                        .section3:hover .layer3 {
+                            border: 2px solid #EFF0FF;
+                            width: 498px;
+                            border-radius: var(--br-lgi);
+                        }
+
+                        .section4:hover img {
+                            border: 2px solid #EFF0FF;
+                            border-radius: 50%
+                        }
+
+                        .section4:hover .layer4 {
+                            border: 2px solid #EFF0FF;
+                            width: 498px;
+                            border-radius: var(--br-lgi);
+                        }
+                    </style>
+
+                    <div class="section1">
+                        <img class="beta-thal-child4" alt="" src="Ellipse.png" />
+                        <img class="ellipse-icon" src="Ellipse.png" />
+                        <img class="beta-thal-child1" src="Ellipse.png" />
+                        <div class="layer1">SMA type I also called Werdnig-Hoffmann disease or infantile-onset SMA-
+                            hypotonia (reduced muscle tone) -(before 6 months of age) diminished limb movements, lack of
+                            tendon reflexes,
+                            fasciculations, swallowing and feeding difficulties, scoliosis and impaired breathing.
+                        </div>
+                    </div>
+
+                    <div class="section2">
+                        <img class="beta-thal-child2" src="Ellipse.png" />
+                        <div class="layer2">SMA type II-(between 6 and 18 months of age) the intermediate form- unable
+                            to stand or walk unaided.
+                        </div>
+                    </div>
+
+                    <div class="section3">
+                        <img class="beta-thal-child3" src="Ellipse.png" />
+                        <div class="layer3">SMA type III (Kugelberg-Welander disease)- (after 18 months of age) coliosis
+                            and joint contractures—chronic shortening of muscles or tendons around joints--caused by
+                            abnormal muscle tone and weakness.
+                        </div>
+                    </div>
+
+                    <div class="section4">
+                        <img class="beta-thal-child5" src="Ellipse.png" />
+                        <div class="layer4">SMA type IV-(after 21 years of age) with mild to moderate proximal muscle
+                            weakness and other symptoms.</div>
+                    </div>
+
+                </section>
+
+
+                <!--disease timeline
+
+                <section id="Timeline of disease onset">
+
+                    <div class="timeline-of-disease1">Timeline of disease onset</div>
+                    <img class="hemo-a-timeline-icon" alt="" src="mps1timeline.PNG" />
+                    <a class="source-httpsrarediseasesi" href=" https://rarediseases.info.nih.gov/"
+                        target="_blank">Source: National Center for Advancing Translational Sciences</a>
+                    <a class="coloured-age"><sup>*</sup>Coloured age: Disease onset</a>
+                </section>
+
+                <!--inheritance pattern
+                <section id="Inheritance Pattern">
+                    <style>
+                        .hideme {
+                            display: none;
+                        }
+
+                        .autosomal-recessive:hover+.hideme {
+                            display: block;
+                            color: rgb(94, 94, 94);
+                        }
+                    </style>
+
+                    <div class="autosomal-recessive">Where it all started?</div>
+                    <div class="hideme">Click for Inheritance Pattern</div>
+
+                    <div class="image-container">
+                        <button id="alpha-child-close"
+                            style="background:#EFF0FF; padding: 8px 8px;border: none; height: 10%; width: 10%">
+                            <h2>X</h2>
+                        </button>
+                        <img id="alpha-child" src="mps1IP.png">
+                    </div>-->
+                </section>
+
+                <!--healing-->
+                <section id="Healing">
+                    <div class="diagnosticstext">
+                        Symptoms, PCR for exon 7 and 8 deletion, MLPA
+                    </div>
+
+                    <div class="therapeuticstext">
+                        Risdiplasm, Antisense oligo,and exon skipping drug
+                    </div>
+                    <a class="therapeutics1">Therapeutics</a>
+                    <a class="diagnostics">Diagnostics</a>
+
+                    <img class="vertical-icon" alt="" src="vertical.png" />
+                    <img class="horizontal-icon" alt="" src="horizontal.png" />
+                </section>
+
+                <section id="Prevalence">
+                    <div class="in-100000">
+                        <p class="therapeutics"></p>
+                        <p class="therapeutics"></p>
+                    </div>
+                    <div class="prevalence-india">
+                        <span class="prevalence-india-txt-container">
+                            <p class="therapeutics">Prevalence</p>
+                            <p class="india">(India)</p>
+                        </span>
+                    </div>
+                    <div class="prevalence-global">
+                        <span class="prevalence-india-txt-container">
+                            <p class="therapeutics">Prevalence</p>
+                            <p class="india">(Global)</p>
+                        </span>
+                    </div>
+                    <a class="estimated-4-per-container">
+                        <p class="therapeutics">carrier frequency </p>
+                        <p class="therapeutics">was 1 in 38<sup>[1]</sup></p>
+                    </a>
+                </section>
+
+                <!--recent research-->
+                <section id="Recent Research">
+                    <a class="recent-research1">Recent Research:</a>
+                </section>
+
+                <!--resources-->
+                <section id="Resources">
+                    <a class="resources1">Resources:</a>
+                    <div class="reference-container">
+                        <ul class="reference1">
+                            1. Suthar, R., & Patil, A. N. (2021). Spinal Muscular Atrophy Therapeutics in India:
+                            Parental Hopes and Despair!
+                            Annals of Neurosciences, 28(3–4), 112–113. https://doi.org/10.1177/09727531211046365
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <!--header-->
+            <a class="hemophilia-a1"
+                href="https://www.ninds.nih.gov/spinal-muscular-atrophy-fact-sheet#:~:text=Spinal%20muscular%20atrophy%20(SMA)%20is,to%20muscle%20weakness%20and%20atrophy"
+                target="_blank">Spinal Muscular Atrophy</a>
+            <a class="external-link"
+                href="https://www.ninds.nih.gov/spinal-muscular-atrophy-fact-sheet#:~:text=Spinal%20muscular%20atrophy%20(SMA)%20is,to%20muscle%20weakness%20and%20atrophy"
+                target="_blank">
+                <img class="vector-icon" alt="" src="external-link.png" />
+            </a>
+
+            <a class="tigs-logo" href="https://tigs.res.in/" target="_blank"><img class="tigs-logo" alt=""
+                    src="tigs logo.png" /></a>
+
+            <!--gentigs-->
+            <style>
+                .hide {
+                    display: none;
+                }
+
+                .gentigs-top:hover+.hide {
+                    display: block;
+                    color: rgb(94, 94, 94);
+                }
+            </style>
+            <button class="beta-inner1"></button>
+            <a class="beta-inner1" href="https://tigs.res.in/programs/rare-genetic-diseases/" target="_blank"></a>
+            <div class="gentigs-top">GENTIGS</div>
+            <div class="hide">GENTIGS is a databse</div>
+
+
+            <!--left nav bar-->
+            <button class="hemo-a-item" autofocus></button>
+            <a class="sma" href="./s-m-a.html">Spinal Muscular Ataxia</a>
+            <a class="dmd" href="./dmd.html">Duchenne muscular Dystrophy</a>
+            <div class="fa" href="./f-a.html">Friedreich's Ataxia</div>
+
+            <a class="dashboard" href="./a-p.html">
+                <img class="dashboard-icon" alt="" src="Dashboard.png" />
+                <div class="blood-disorder">Blood Disorder</div>
+            </a>
+            <a class="dashboard1" href="./g-d.html">
+                <img class="dashboard-icon" alt="" src="Dashboard.png" />
+                <div class="blood-disorder">Storage Disorder</div>
+            </a>
+            <a class="dashboard2" href="./s-m-a.html">
+                <img class="dashboard-icon" alt="" src="Dashboard.png" />
+                <div class="neurological-disorders">Neurological Disorders</div>
+            </a>
+            <a class="dashboard3" href="./c-f.html">
+                <img class="dashboard-icon" alt="" src="Dashboard.png" />
+                <div class="neurological-disorders">Others</div>
+            </a>
+
+            <!--footer-->
+            <a class="tigs">© Tata Institute for Genetics and Society</a>
+            <a class="dashboard-development-container" href="https://www.linkedin.com/in/samruddhi-walaskar-37a6a01b4/"
+                target="_blank">
+                <span>Dashboard development & design:</span>
+                <span class="span"> </span>
+                <span class="samruddhi-walaskar">Samruddhi Walaskar</span>
+            </a>
+            <a class="concept-lead-container" href="https://tigs.res.in/people/scientists/surabhi-srivastava/"
+                target="_blank">
+                <span>Concept & lead: </span>
+                <span class="samruddhi-walaskar">Dr. Surabhi Srivastava</span>
+            </a>
+            <a class="data-compilation-rgd-container" href="https://tigs.res.in/people/scientists/" target="_blank">
+                <span>Data compilation: </span>
+                <span class="samruddhi-walaskar">RGD Team</span>
+            </a>
+            <a class="for-queries-container" href="surabhi.srivastava@tigs.res.in" target="_blank">
+                <p class="therapeutics">For queries & feedback:</p>
+                <p class="surabhisrivastavatigsresin">surabhi.srivastava@tigs.res.in</p>
+            </a>
+
+
+            <!--additional links-->
+            <a class="aditional-links">Aditional links</a>
+            <a class="online-mendelian-inheritance-container" href="https://www.omim.org/" target="_blank">
+                <ul class="online-mendelian-inheritance">
+                    Online Mendelian Inheritance in Man(OMIM)
+                </ul>
+            </a>
+            <a class="organization-for-rare-container" href="https://ordindia.in/" target="_blank">
+                <ul class="online-mendelian-inheritance">
+                    Organization for Rare Diseases India(ORDI)
+                </ul>
+            </a>
+            <a class="indian-policy-for-container"
+                href="https://main.mohfw.gov.in/sites/default/files/Final%20NPRD%2C%202021.pdf" target="_blank">
+                <ul class="online-mendelian-inheritance">
+                    Indian Policy for Rare Genetic Disorders
+                </ul>
+            </a>
+            <a class="tigs-work" href="https://tigs.res.in/programs/rare-genetic-diseases/" target="_blank">
+                <ul class="online-mendelian-inheritance">
+                    TIGS Work
+                </ul>
+            </a>
+            <a class="indian-society-of-container" href="https://www.ishbt.com/" target="_blank">
+                <ul class="online-mendelian-inheritance">
+                    Indian Society of Hematology and Blood Transfusion (ISHBT)
+                </ul>
+            </a>
+            <script src="image.js"></script>
+        </div>
+    </body>
+</main>
+
+</html>

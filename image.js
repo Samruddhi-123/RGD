@@ -1,3 +1,4 @@
+
 const image = document.querySelector("#alpha-child");
 const imageContainer = document.querySelector(".image-container");
 

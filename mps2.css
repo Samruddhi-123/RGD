@@ -1,5 +1,3 @@
-/*nav bar*/
-
 /* 1. Enable smooth scrolling */
 html {
     scroll-behavior: smooth;
@@ -63,21 +61,6 @@ h1 {
     font-weight: 300;
 }
 
-.contents {
-    position: fixed;
-    width: 70px;
-    height: 16px;
-    right: 124px;
-    top: 164px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-
-    color: #11284B;
-}
-
 /** page layout 
   main {
     display: grid;
@@ -91,8 +74,19 @@ h1 {
 section {
     padding-bottom: 300px;
 }
-
-
+.contents {
+    position: fixed;
+    width: 70px;
+    height: 16px;
+    right: 124px;
+    top: 164px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #11284B;
+}
 /*body-clinicalsymp*/
 .clinical-symptoms {
     position: absolute;
@@ -118,108 +112,135 @@ section {
 }
 
 /*ellipse-position*/
-.alpha-thal-child6 {
+.beta-thal-child4 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 810px;
-    top: 202px;
+    left: 869px;
+    top: 117px;
 
 }
 
-.alpha-thal-child1 {
+.beta-thal-child3 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 856px;
-    top: 537px;
+    left: 843px;
+    top: 144px;
 }
 
-.alpha-thal-child2 {
+.beta-thal-child2 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 871px;
-    top: 227px;
-
+    left: 802px;
+    top: 240px;
 }
 
-.alpha-thal-child3 {
+.beta-thal-child5 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 864px;
-    top: 251px;
+    left: 845px;
+    top: 444px;
 }
 
-.alpha-thal-child4 {
+.beta-thal-child1 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 810px;
-    top: 202px;
+    left: 797px;
+    top: 380px;
 }
 
-.alpha-thal-child5 {
+.ellipse-icon {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 849px;
-    top: 266px;
-
+    left: 800px;
+    top: 280px;
 }
 
 /*clinical symp sentence*/
-.layer1,
+.layer1 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 132px;
+}
+
 .layer2 {
     position: absolute;
-    top: 205px;
-    left: 294px;
     font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 170px;
 }
 
-.layer2 {
-    top: 240px;
-    width: 373px;
+.layer3 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 214px;
 }
 
-.layer5,
-.layer6,
-.layer3,
 .layer4 {
     position: absolute;
-    top: 364px;
-    left: 294px;
     font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 257px;
 }
 
-.layer5,
-.layer6,
-.layer4 {
-    top: 409px;
-    display: inline-block;
+.layer5 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 300px;
 }
 
-.layer5,
 .layer6 {
-    top: 453px;
-}
-
-.layer6 {
-    top: 498px;
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 345px;
 }
 
 .layer7 {
     position: absolute;
-    width: 327px;
+    font-size: var(--font-size-base);
+    width: 498px;
     height: 24px;
-    left: 294px;
-    top: 316px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    left: 299px;
+    top: 392px;
+}
+
+.layer8 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 432px;
+}
+
+.layer9 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 480px;
 }
 
 /*timeline-of-disease*/
@@ -239,8 +260,8 @@ section {
     position: absolute;
     top: 651px;
     left: 292px;
-    width: 838px;
-    height: 158px;
+    width: 824px;
+    height: 163px;
     object-fit: cover;
 }
 
@@ -585,8 +606,8 @@ section {
     position: absolute;
     width: 197px;
     height: 43px;
-    left: 25px;
-    top: 195px;
+    left: 20px;
+    top: 410px;
     background: #EFF0FF;
     border-radius: 19px;
 }
@@ -597,51 +618,12 @@ section {
     height: 43px;
   }
   */
-.alpha-thalassemia,
-.beta-thalassemia,
-.hemophilia-a,
-.hemophilia-b,
-.sickle-cell-anemia {
-    text-decoration: none;
-    position: absolute;
-    top: 245px;
-    left: 61px;
-    font-weight: 600;
-    color: inherit;
-}
-
-.alpha-thalassemia,
-.hemophilia-a,
-.hemophilia-b,
-.sickle-cell-anemia {
-    top: 364px;
-    left: 62px;
-}
-
-.alpha-thalassemia,
-.hemophilia-a,
-.hemophilia-b {
-    top: 205px;
-    left: 62px;
-}
-
-.hemophilia-a,
-.hemophilia-b {
-    top: 324px;
-    left: 62px;
-}
-
-.hemophilia-a {
-    top: 287px;
-    left: 62px;
-}
-
-.dashboard-icon {
+  .dashboard-icon {
     position: relative;
     width: 18px;
     height: 18px;
-    flex-shrink: 0;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .blood-disorder {
@@ -655,6 +637,7 @@ section {
     position: absolute;
     top: 168px;
     left: 27px;
+    width: 136px;
     height: 21px;
     display: flex;
     flex-direction: row;
@@ -665,55 +648,121 @@ section {
 }
 
 .dashboard1 {
-    top: 464px;
-
+    top: 217px;
+    width: 152px;
 }
 
 .neurological-disorders {
     position: relative;
     font-weight: 600;
     display: inline-block;
+    width: 165px;
     flex-shrink: 0;
 }
 
-.dashboard2,
-.dashboard3 {
+.dashboard2 {
     text-decoration: none;
-    position: absolute;
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 0px 0px;
+    gap: 14px;
+
+    position: absolute;
+    width: 209px;
+    height: 16px;
+    left: 25px;
+    top: 547px;
     flex-direction: row;
     justify-content: flex-start;
     gap: var(--gap-sm);
     color: var(--color-gray-100);
 }
 
-.dashboard2 {
-    top: 504px;
-    left: 29px;
-    height: 16px;
-    padding: var(--padding-12xs) 0 0;
-    box-sizing: border-box;
-    align-items: flex-start;
-}
 
 .dashboard3 {
-    top: 550px;
-    left: 31px;
-    height: 21px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 209px;
+    height: 21px;
+    left: 27px;
+    top: 593px;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+    color: var(--color-gray-100);
+    text-decoration: none;
 }
 
-.fanconi-anaemia {
+.fabry,
+.gauchers-disease,
+.pompe {
     text-decoration: none;
     position: absolute;
-    top: 406px;
-    left: 62px;
+    top: 264px;
+    left: 58px;
     font-weight: 600;
     color: inherit;
 }
 
+.fabry,
+.pompe {
+    top: 304px;
+    left: 94px;
+}
+
+.pompe {
+    top: 340px;
+    left: 88px;
+}
+
+.mps-i,
+.mpsii {
+    text-decoration: none;
+    position: absolute;
+    top: 383px;
+    left: 96px;
+    font-weight: 600;
+    color: inherit;
+}
+
+.mpsii {
+    top: 419px;
+    left: 95px;
+}
+
+.mpsiv {
+    position: absolute;
+    height: 21px;
+    left: 95px;
+    top: 467px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.mpsvi {
+    position: absolute;
+    height: 21px;
+    left: 95px;
+    top: 506px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+}
+
 /*header*/
-.alpha-thal1 {
+.hemophilia-a1 {
     position: absolute;
     display: inline-block;
     text-decoration: none;
@@ -905,7 +954,7 @@ section {
 }
 
 /*body*/
-.alpha-thal {
+.hemo-a {
     position: relative;
     background-color: var(--color-white);
     height: 2105px;

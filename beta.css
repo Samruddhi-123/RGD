@@ -1,5 +1,3 @@
-/*nav bar*/
-
 /* 1. Enable smooth scrolling */
 html {
     scroll-behavior: smooth;
@@ -62,7 +60,6 @@ li {
 h1 {
     font-weight: 300;
 }
-
 .contents {
     position: fixed;
     width: 70px;
@@ -74,7 +71,6 @@ h1 {
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
-
     color: #11284B;
 }
 
@@ -91,7 +87,6 @@ h1 {
 section {
     padding-bottom: 300px;
 }
-
 
 /*body-clinicalsymp*/
 .clinical-symptoms {
@@ -118,69 +113,65 @@ section {
 }
 
 /*ellipse-position*/
-.alpha-thal-child6 {
+.beta-thal-child6 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 810px;
-    top: 202px;
-
+    left: 875px;
+    top: 459px;
 }
 
-.alpha-thal-child1 {
+.beta-thal-child1 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 856px;
-    top: 537px;
+    left: 875px;
+    top: 459px;
 }
 
-.alpha-thal-child2 {
+.beta-thal-child2 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 871px;
-    top: 227px;
-
+    left: 852px;
+    top: 230px;
 }
 
-.alpha-thal-child3 {
+.beta-thal-child3 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 864px;
-    top: 251px;
+    left: 893px;
+    top: 274px;
 }
 
-.alpha-thal-child4 {
+.beta-thal-child4 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 810px;
-    top: 202px;
+    left: 887px;
+    top: 170px;
 }
 
-.alpha-thal-child5 {
+.beta-thal-child5 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 849px;
-    top: 266px;
-
+    left: 880px;
+    top: 289px;
 }
 
 /*clinical symp sentence*/
 .layer1,
 .layer2 {
     position: absolute;
-    top: 205px;
+    top: 167px;
     left: 294px;
     font-size: var(--font-size-base);
 }
 
 .layer2 {
-    top: 240px;
-    width: 373px;
+    top: 223px;
 }
 
 .layer5,
@@ -188,7 +179,7 @@ section {
 .layer3,
 .layer4 {
     position: absolute;
-    top: 364px;
+    top: 269px;
     left: 294px;
     font-size: var(--font-size-base);
 }
@@ -196,30 +187,32 @@ section {
 .layer5,
 .layer6,
 .layer4 {
-    top: 409px;
+    top: 306px;
     display: inline-block;
 }
 
 .layer5,
 .layer6 {
-    top: 453px;
+    top: 389px;
 }
 
 .layer6 {
-    top: 498px;
+    top: 448px;
 }
 
 .layer7 {
     position: absolute;
-    width: 327px;
+    width: 81px;
     height: 24px;
     left: 294px;
-    top: 316px;
+    top: 503px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font-size-base);
     line-height: 24px;
+    /* identical to box height */
+    color: #000000;
 }
 
 /*timeline-of-disease*/
@@ -585,8 +578,8 @@ section {
     position: absolute;
     width: 197px;
     height: 43px;
-    left: 25px;
-    top: 195px;
+    left: 16px;
+    top: 235px;
     background: #EFF0FF;
     border-radius: 19px;
 }
@@ -713,7 +706,7 @@ section {
 }
 
 /*header*/
-.alpha-thal1 {
+.beta-thal1 {
     position: absolute;
     display: inline-block;
     text-decoration: none;
@@ -731,7 +724,6 @@ section {
     left: 610px;
     top: 25px;
 }
-
 .vector-icon {
     position: absolute;
     left: 41.67%;
@@ -739,7 +731,6 @@ section {
     top: 12.5%;
     bottom: 41.67%;
 }
-
 .vector-icon {
     position: absolute;
     left: 62.5%;
@@ -747,7 +738,6 @@ section {
     top: 12.5%;
     bottom: 62.5%;
 }
-
 .vector-icon {
     position: absolute;
     left: 12.5%;
@@ -755,7 +745,6 @@ section {
     top: 25%;
     bottom: 12.5%;
 }
-
 .vector-icon {
     position: absolute;
     left: 12.5%;
@@ -905,7 +894,7 @@ section {
 }
 
 /*body*/
-.alpha-thal {
+.beta-thal {
     position: relative;
     background-color: var(--color-white);
     height: 2105px;

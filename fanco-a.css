@@ -1,5 +1,3 @@
-/*nav bar*/
-
 /* 1. Enable smooth scrolling */
 html {
     scroll-behavior: smooth;
@@ -63,21 +61,6 @@ h1 {
     font-weight: 300;
 }
 
-.contents {
-    position: fixed;
-    width: 70px;
-    height: 16px;
-    right: 124px;
-    top: 164px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-
-    color: #11284B;
-}
-
 /** page layout 
   main {
     display: grid;
@@ -91,8 +74,19 @@ h1 {
 section {
     padding-bottom: 300px;
 }
-
-
+.contents {
+    position: fixed;
+    width: 70px;
+    height: 16px;
+    right: 124px;
+    top: 164px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #11284B;
+}
 /*body-clinicalsymp*/
 .clinical-symptoms {
     position: absolute;
@@ -118,108 +112,170 @@ section {
 }
 
 /*ellipse-position*/
-.alpha-thal-child6 {
+.beta-thal-child6 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 810px;
-    top: 202px;
-
+    left: 807px;
+    top: 368px;
 }
 
-.alpha-thal-child1 {
+.beta-thal-child1 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 856px;
-    top: 537px;
+    left: 869px;
+    top: 323px;
 }
 
-.alpha-thal-child2 {
+.beta-thal-child2 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 871px;
+    left: 874px;
     top: 227px;
 
 }
 
-.alpha-thal-child3 {
+.beta-thal-child3 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 864px;
+    left: 845px;
     top: 251px;
+
 }
 
-.alpha-thal-child4 {
+.beta-thal-child4 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 810px;
-    top: 202px;
+    left: 858px;
+    top: 140px;
 }
 
-.alpha-thal-child5 {
+.beta-thal-child5 {
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 849px;
-    top: 266px;
+    left: 887px;
+    top: 285px;
 
+}
+
+.ellipse-icon {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 797px;
+    top: 256px;
+}
+
+.beta-thal-child8 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 856px;
+    top: 556px;
+}
+
+.beta-thal-child9 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 869px;
+    top: 114px;
 }
 
 /*clinical symp sentence*/
-.layer1,
+.layer1 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 135px;
+}
+
 .layer2 {
     position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 170px;
+}
+
+.layer3 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
     top: 205px;
-    left: 294px;
-    font-size: var(--font-size-base);
 }
 
-.layer2 {
-    top: 240px;
-    width: 373px;
-}
-
-.layer5,
-.layer6,
-.layer3,
 .layer4 {
     position: absolute;
-    top: 364px;
-    left: 294px;
     font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 243px;
 }
 
-.layer5,
-.layer6,
-.layer4 {
-    top: 409px;
-    display: inline-block;
+.layer5 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 284px;
 }
 
-.layer5,
 .layer6 {
-    top: 453px;
-}
-
-.layer6 {
-    top: 498px;
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 326px;
 }
 
 .layer7 {
     position: absolute;
-    width: 327px;
+    font-size: var(--font-size-base);
+    width: 498px;
     height: 24px;
-    left: 294px;
-    top: 316px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    left: 299px;
+    top: 363px;
+}
+
+.layer8 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 402px;
+}
+
+.layer9 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 300px;
+    top: 488px;
+}
+
+.layer10 {
+    position: absolute;
+    font-size: var(--font-size-base);
+    width: 498px;
+    height: 24px;
+    left: 299px;
+    top: 531px;
 }
 
 /*timeline-of-disease*/
@@ -585,8 +641,8 @@ section {
     position: absolute;
     width: 197px;
     height: 43px;
-    left: 25px;
-    top: 195px;
+    left: 16px;
+    top: 395px;
     background: #EFF0FF;
     border-radius: 19px;
 }
@@ -713,7 +769,7 @@ section {
 }
 
 /*header*/
-.alpha-thal1 {
+.beta-thal1 {
     position: absolute;
     display: inline-block;
     text-decoration: none;
@@ -905,7 +961,7 @@ section {
 }
 
 /*body*/
-.alpha-thal {
+.beta-thal {
     position: relative;
     background-color: var(--color-white);
     height: 2105px;
